@@ -16,8 +16,8 @@
             <label class="label" for="js-your-bill">Счёт</label>
             <input class="number" type="number" placeholder="Ваш счёт" id="js-your-bill">
         </div>
-        <div class="block">
-            <div>
+        <div>
+            <div class="block item">
                 <label for="js-tip-input">Процент чаевых</label>
                 <span>
                     <span id="js-tip-percent">0</span>
@@ -27,7 +27,7 @@
             <div>
                 <input type="range" id="js-tip-input" value="0">
             </div>
-            <div>
+            <div class="block item">
                 <span>Чаевые</span>
                 <span>
                      <span id="js-tip-value">0</span>
@@ -35,7 +35,7 @@
                 </span>
             </div>
             <hr>
-            <div>
+            <div class="block item total">
                 <span>Всего</span>
                 <span>
                     <span id="js-total-with-tip">0</span>
@@ -45,24 +45,24 @@
         </div>
     </section>
     <section class="section">
-        <div class="block">
+        <div class="block item">
             <label for="js-split-input">Разделить на:</label>
             <span>
                     <span id="js-split-value">0</span>
                     <span id="js-person-word">человек</span>
                 </span>
         </div>
-        <div class="block">
+        <div>
             <input type="range" id="js-split-input" value="1" min="1">
         </div>
-        <div class="block">
+        <div class="block item">
             <span>Счёт на каждого</span>
             <span>
                     <span id="js-split-total">0</span>
                     <span>₽</span>
                 </span>
         </div>
-        <div class="block">
+        <div class="block item">
             <span>Чаевые на каждого</span>
             <span>
                     <span id="js-tip-total">0</span>
